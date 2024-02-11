@@ -1,138 +1,429 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Product Listing Page</title>
+<html lang = en>
 
-    <link rel="stylesheet" href="styles.css" />
+  <head>
+
+    <meta charset="utf-8">
+    <title>P01 - Style Guide</title>
+    
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/fonts.css"> 
+
   </head>
 
   <body>
-    <!-- nav -->
-    <nav>
-      <ul class="nav-list">
-        <!-- <li><a class="button button-nav" href="/index.html">Home</a></li> -->
-        <li><a href="./index.html" class="button button-nav">Home</a></li>
-        <!-- <li><a class="button button-nav" href="#">Shop</a></li> -->
-        <li>
-          <a href="./main.html" class="button button-nav">Our Style Guide</a>
-        </li>
-        <!--<li><a class="button button-nav" href="/checkout.html">Cart</a></li>-->
-        <li><a href="./checkout.html" class="button button-nav">Cart</a></li>
-      </ul>
-    </nav>
+    <header>
+      <nav>
+        <h2>Template/Page Navigation</h2>
+        <p>Navigate to template pages using the below buttons.</p>
 
-    <!-- product listing -->
-    <h1>What are others buying?</h1>
-    <section class="productListing">
-      <div class="product">
-        <img
-          src="images/product1.jpg"
-          alt="Product 1"
-          width="543.6"
-          height="384"
-        />
-        <p>
-          <a href="#" class="interactive-link">Trek Émonda SL 6 Disc Pro</a>
-        </p>
-        <p class="prodDescription">
-          This is a sample product description. This is an exquisite product.
-        </p>
-        <p class="price">$2,500.99</p>
-        <!-- <a href="#" class="button">Add to cart</a> -->
-        <input type="submit" value="Add to Cart" />
-      </div>
+        <a href="./products.html" class="button-nav">Product Listing Page</a>
+        <a href="./checkout.html" class="button-nav">Checkout Page</a>
+      </nav>
 
-      <div class="product">
-        <img
-          src="images/product2.jpg"
-          alt="Product 1"
-          width="543.6"
-          height="384"
-        />
-        <p>
-          <a href="#" class="interactive-link"
-            >Rolleiflex 3.5F Xenotar Twin Lens Reflex Camera</a
-          >
-        </p>
-        <p class="prodDescription">
-          This is a sample product description. This is an exquisite product.
-        </p>
-        <p class="price">$2,500.99</p>
-        <!-- <a href="#" class="button">Add to cart</a> -->
-        <input type="submit" value="Add to Cart" />
-      </div>
+      <h1>P01 - Style Guide Template</h1>
 
-      <div class="product">
-        <img
-          src="images/product3.jpg"
-          alt="Product 1"
-          width="543.6"
-          height="384"
-        />
-        <p><a href="#" class="interactive-link">Ray-Ban Original Wayfare</a></p>
-        <p class="prodDescription">
-          This is a sample product description. This is an exquisite product.
-        </p>
-        <p class="price">$2,500.99</p>
-        <!-- <a href="#" class="button">Add to cart</a> -->
-        <input type="submit" value="Add to Cart" />
-      </div>
+      <p>A template you can use to start building out your own style guides with.</p>
 
-      <div class="product">
-        <img
-          src="images/product4.jpg"
-          alt="Product 1"
-          width="543.6"
-          height="384"
-        />
-        <p>
-          <a href="#" class="interactive-link"
-            >Jo Malone English Pear & Sweet Pea Cologne</a
-          >
-        </p>
-        <p class="prodDescription">
-          This is a sample product description. This is an exquisite product.
-        </p>
-        <p class="price">$2,500.99</p>
-        <!-- <a href="#" class="button">Add to cart</a> -->
-        <input type="submit" value="Add to Cart" />
-      </div>
+      <h2>Style Guide Navigation</h2>
+      <p>Navigate to sections within the style guide using the below buttons.</p>
+      <nav>        
+        <a href="#interactive_elements" class="button-nav">Interactive Elements</a>
+        <a href="#text_elements" class="button-nav">Text Elements</a>
+        <a href="#combined_elements" class="button-nav">Combined Elements</a>
+        <a href="product_listing.html" class="button-nav">Product Listing Template</a>
+        <a href="checkout.html" class="button-nav">Checkout Template</a>
+        <a href="#branding_ideas" class="button-nav">Branding Ideas</a>
+        <a href="#brand_components" class="button-nav">Assembled Brand Componenets</a>
+        <a href="#citations" class="button-nav">Citations</a>
+      </nav>
+    </header>
 
-      <div class="product">
-        <img
-          src="images/product5.jpg"
-          alt="Product 1"
-          width="543.6"
-          height="384"
-        />
-        <p><a href="#" class="interactive-link">Seiko Dolce Date</a></p>
-        <p class="prodDescription">
-          This is a sample product description. This is an exquisite product.
-        </p>
-        <p class="price">$2,500.99</p>
-        <!-- <a href="#" class="button">Add to cart</a> -->
-        <input type="submit" value="Add to Cart" />
-      </div>
 
-      <div class="product">
-        <img
-          src="images/product6.jpg"
-          alt="Product 1"
-          width="543.6"
-          height="384"
-        />
-        <p>
-          <a href="#" class="interactive-link">Apple Airpods 1st Generation</a>
-        </p>
-        <p class="prodDescription">
-          This is a sample product description. This is an exquisite product.
-        </p>
-        <p class="price">$2,500.99</p>
-        <!-- <a href="#" class="button">Add to cart</a> -->
-        <input type="submit" value="Add to Cart" />
-      </div>
+    <!-- INTERACTIVE ELEMENTS SECTION // -->
+    <section id="interactive_elements">
+      <h2>Interactive Elements</h2>
+
+
+      <section class="element">
+        <h3>In-text link</h3>
+          <!--
+            Drew upon the completed HTML Basics code (with the robot) and exercise1.html from the 339 coding exercise to help complete this section of adding in the In-Text link.
+          -->  
+          <h4>CSS selector</h4> 
+          <p>.text-link</p>
+
+          <h4>Sample code:</h4>
+          <code>
+            &lt;p&gt; A &lt;a href="#">link&lt;/a&gt; within a paragraph. &lt;/p&gt;
+          </code>
+
+          <h4>Rendered element:</h4>
+           <nav>
+            <p>Here's a <a href="#" class="text-link">link</a> within a paragraph!</p>
+          </nav>
+      </section>
+
+
+      <!-- Default Button styling section -->
+      <section class="element">
+
+        <h3>Navigation Link</h3>
+        
+        <h4>CSS selector:</h4>
+        <p>.nav-link</p>
+
+        <h4>Sample code:</h4>
+        <code>
+          &lt;nav&gt;
+          &lt;p>Go to:&lt;/p&gt;
+            &lt;a href="#interactive_elements">Interactive Elements&lt;a&gt;
+        &lt;/nav&gt;
+        </code>
+
+        <h4>Rendered element:</h4>
+
+        <nav>
+          <p>Go to:</p>
+            <a href="#interactive_elements" class="text-link">Interactive Elements</a>
+        </nav>
+
+        <h3>Button</h3>
+
+        <h4>CSS selector:</h4>
+        <p>.button</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;a href="#" class="button"&gt;Default Button&lt;/a&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <a class="button" href="#">Default Button</a>
+
+      </section>
+
+
+      <section class="element">
+        <h3>Submit/Reset Buttons</h3>
+        <!--
+          Drew upon/referenced https://www.w3schools.com/tags/att_button_type.asp to complete the Submit/Reset Buttons section
+        -->
+        
+        <h4>CSS selector:</h4>
+        <p>.submit-button</p><br>
+        <p>.reset-button</p>
+
+        <h4>Sample code:</h4>
+        <code>
+          &lt;form method="post" action="#"&gt;<br>
+            &lt;label for="form">Put input here:&lt;/label&gt;<br>
+            &lt;input type="text" id="form" placeholder="type input here"&gt;<br>
+            &lt;button type="submit" value="Submit">Submit&lt;/button&gt;<br>
+            &lt;button type="reset" value="Reset">Reset&lt;/button&gt;<br>
+          &lt;/form&gt;
+        </code>
+
+        <h4>Rendered element:</h4>
+
+        <form method="post" action="#">
+          <label for="form">Put input here:</label>
+          <input type="text" id="form" placeholder="type input here">
+          <button type="submit" value="Submit" class="submit-button">Submit</button>
+          <button type="reset" value="Reset" class="reset-button">Reset</button>
+        </form>
+      </section>
+
+
+      <section class="element">
+        <h3>Text Input Field with Label</h3>
+        <!--
+          Drew upon the completed HTML Basics code (with the robot) from the 339 coding exercise to help complete this Text Input Field section.
+        -->  
+        
+        <h4>CSS selector:</h4>
+        <p>.label</p><br>
+        <p>.text-input</p>
+
+        <h4>Sample code:</h4>
+        <code>
+          &lt;form method="post" action="#"&gt;<br>
+          &lt;label for="form-subject">This is a label. Please provide an input:&lt;/label&gt;<br>
+          &lt;input type="text" id="form-subject" placeholder="Text input field"&gt;<br>
+          &lt;/form&gt;
+        </code>
+
+        <h4>Rendered element:</h4>
+
+        <form method="post" action="#">
+          <label for="form-subject">This is a label. Please provide an input:</label>
+          <input type="text" id="form-subject" placeholder="Text input field">
+        </form>
+      </section>
+      </section>
+
+
+      <section class="element">
+        <h3>Radio Button with Label</h3>
+        <!--
+          Drew upon/referenced https://www.w3schools.com/tags/att_input_type_radio.asp to help complete the Radio Button with Label section
+        -->
+        
+        <h4>CSS selector:</h4>
+        <p>.radio-button</p><br>
+        <p>.label</p>
+
+        <h4>Sample code:</h4>
+        <code>
+          &lt;form action="#"&gt;<br>
+          &lt;input type="radio" id="label1" name="radiobutton" value="HTML"&gt;<br>
+          &lt;label for="label1">Label 1&lt;/label&gt;<br>
+          &lt;/form&gt;
+        </code>
+
+        <h4>Rendered element:</h4>
+
+        <form action="#">
+          <p>These are radio buttons:</p>
+          <input type="radio" id="label1" name="radiobutton" value="HTML">
+          <label for="label1">Label 1</label><br>
+          <input type="radio" id="label2" name="radiobutton" value="HTML">
+          <label for="label2">Label 2</label>
+        </form>
+      </section>
+
+
+      <section class="element">
+        <h3>Image as a Link</h3>
+        <!--
+          Drew upon https://www.w3schools.com/html/tryit.asp?filename=tryhtml_links_image to complete this section of adding in the image as a link.
+        -->     
+        
+        <h4>CSS selector:</h4>
+        <p>.image-link</p>
+
+        <h4>Sample code:</h4>
+        <code>
+          &lt;a href="#interactive_elements"&lt;&gt;img src="img/crystal-de-passille-chabot.jpg" alt="paintbrushes and watercolours" style="height:500px"&gt;&lt;/a&gt;
+        </code>
+
+        <h4>Rendered element:</h4>
+
+        <p>The image below is a link, clicking on it will bring you to the top of the Interactive Elements section!</p>
+        
+        <div class="img">
+        <!--
+        To get the image hover state to change, I referenced Luke Douglas's answer from this forum https://stackoverflow.com/questions/9047134/how-to-change-the-color-of-an-image-on-hover
+        -->
+        <!--
+          Photo by Crystal de Passillé-Chabot on https://unsplash.com/photos/seven-brushes-and-water-color-palette-TTwwVG4Isjw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash on Unsplash
+        -->
+        <a href="#interactive_elements"><img src="img/crystal-de-passille-chabot.jpg" alt="paintbrushes and watercolours" style="height:500px"></a>
+        </div>
+      </section>
+
+    <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+
+
+    <!-- TEXT ELEMENTS SECTION // -->
+    <section id="text_elements">
+      <h2>Text Elements</h2>
+
+      <section class="element">
+        <h3>Headings</h3>
+        
+        <h4>CSS selector:</h4>
+        <p>h1{}, h2{}, h3{}, h4{}</p>
+
+        <h4>Sample code:</h4>
+        <code>
+          &lt;h2&gt;Heading2&lt;/h2&gt;
+        </code>
+
+        <h4>Rendered element:</h4>
+
+        <h3>Heading 1</h3>
+        <h4>Heading 2</h4>
+        <h5>Heading 3</h5>
+        <h6>Heading 4</h6>
+
+      </section>
+
+      <section class="element">
+        
+        <h3>Paragraphs</h3>
+
+        <h4>CSS selector:</h4>
+        <p>p{}</p>
+
+        <h4>Sample code:</h4>
+        <code>
+          &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit.&lt;/p&gt;
+        </code>
+
+        <h4>Rendered element:</h4>
+
+           <p>This is a paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus aliquet tellus sit amet ullamcorper sodales. Curabitur blandit ipsum non egestas pharetra. Donec gravida pharetra diam ac accumsan. Curabitur lectus erat, pulvinar eget leo eu, egestas scelerisque magna. Sed efficitur gravida elementum. Etiam consectetur non augue eget imperdiet. Nunc auctor molestie velit, a lobortis purus mattis luctus.</p>
+      </section>
+
+      <section class="element">
+        <h3>Numbered Lists</h3>
+
+        <h4>CSS selector:</h4>
+        <p>ol{}, ul{}</p>
+
+        <h4>Sample code:</h4>
+        <code>
+          &lt;p&gt;This is an ordered list&lt;/p&gt;<br>
+          &lt;ol&gt;<br>
+            &lt;li>ordered list&lt;/li&gt;<br>
+            &lt;li>ordered list&lt;/li&gt;<br>
+          </code>
+
+        <h4>Rendered element:</h4>
+
+        <p>This is an ordered list</p>
+        <ol>
+          <li>ordered list</li>
+          <li>ordered list</li>
+          <li>ordered list</li>
+        </ol>
+
+        <p>This is an unordered list</p>
+        <ul>
+          <li>unordered list</li>
+          <li>unordered list</li>
+          <li>unordered list</li>
+        </ul>
+      </section>
+
     </section>
+    <!-- // TEXT ELEMENTS SECTION -->
+
+
+
+    <!-- COMBINED ELEMENTS SECTION // -->
+    <section id="combined_elements">
+      <h2>Combined Elements</h2>
+
+      <section class="element">
+        <h3>Main Navigation</h3>
+        <a href="#" class="button-nav">Home</a>
+        <a href="#" class="button-nav">Products</a>
+        <a href="#" class="button-nav">Events</a>
+        <a href="#" class="button-nav">About Us</a>
+      </section>
+
+      <section class="element">
+        <h3>Product/Service Listing</h3>
+        <h2>Gouache Paint</h2>
+        <h4>$9.99</h4>
+        <!--
+          Photo by Katie Goertzen from https://unsplash.com/photos/a-close-up-of-a-tube-of-glue-on-a-table-OCg4ANcQrEQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash on Unsplash
+        -->
+        <img src="img/katie-goertzen.jpg" alt="gouache paint" style="height:500px">
+        <h4>Description</h4>
+        <p>Made with excellent pigments and water-soluble acrylic resin, this professional-grade gouache is opaque, rich in colour, and will not fade easily.</p>
+        <p>Read more <a href="#" class="text-link">here.</a></p>
+      </section>
+
+      <section class="element">
+        <h3>Payment Form</h3>
+        <form method="post" action="#">
+          <label for="fname" class=".label">First Name:</label>
+          <input type="text" id="fname" placeholder="First Name"> 
+
+          <label for="lname">Last Name:</label>
+          <input type="text" id="lname" placeholder="Last Name"><br>
+
+          <label for="ccnumber">Credit Card Number</label>
+          <input type="text" id="ccnumber" placeholder="Credit Card Number"> 
+
+          <label for="cvc">Security Code</label>
+          <input type="text" id="cvc" placeholder="CVC">
+
+          <label for="expiry">Card Expiration</label>
+          <input type="text" id="expiry" placeholder="MM/YY"><br>
+
+          <button type="submit" value="Submit" class="submit-button">Submit</button>
+        </form>
+      </section>
+
+      <section class="element">
+        <h3>Checkout Cart</h3>
+        <h2>Checkout</h2>
+        
+        <div class="checkout-container">
+
+
+          <div class="checkout-img">
+            <img src="img/katie-goertzen.jpg" alt="gouache paint" style="height:100px"><br>
+            <img src="img/artiom-vallat.jpg" alt="gouache paint" style="height:100px">
+          </div>
+
+          <div class="checkout-product">
+            <h4>Gouache Paint</h4> 
+            <p>$9.99</p><br>
+
+            <h4>Acrylic Brush</h4> 
+            <p>$16.80</p>
+          </div>
+          
+          <div class="checkout-quantity">
+            <h4>Quantity: 1</h4><br>
+            <h4>Quantity: 1</h4><br>
+          </div>
+        </div>
+        
+        <div class="checkout-price">
+          <h5>Sub-Total: $26.79</h5>
+          <h6>2 Items</h6>
+          <button type="submit" value="Checkout" class="submit-button">Checkout</button>
+        </div>
+      </section>
+
+    </section>
+    <!-- // COMBINED ELEMENTS SECTION -->
+
+    <!-- // BRANDING IDEAS SECTION -->
+    <section id ="branding_ideas">
+      <h2>Branding Ideas</h2>
+
+      <section class="element">
+
+      <h4>What does the company or offer?</h4>
+      <p>
+        This company sells products related to painting, such as paintbrushes, paints, canvases, and more. In addition, the company also hosts events for artists to attend, including live demos of products/techniques, which allows artists to gain additional knowledge on techniques and new products.
+      </p>
+
+      <h4>Who is the company to potential customers?</h4>
+      <p>
+        A one-stop business that allows artists to purchase art supplies needed (e.g. paintbrushes, paints, canvases, etc.) and gain valuable resources and insights from employees and through events & demos. These events & demos will discuss and demonstrate various painting techniques and how to use certain types of paints and products. 
+      </p>
+
+      <h4>Why might this company entice someone to purchase a product or service?</h4>
+      <p>This company entices customers through being convenient as artists often require a variety of supplies, having a one-stop shop helps eliminate the need to visit multiple stores, which saves time and effort. As well, this business provides valuable resources and insights and community building which fosters a sense of belonging.</p>
+
+      </section>
+    </section>
+    <!-- // BRANDING IDEAS SECTION -->
+
+    <section id="brand_components">
+      <h2>Assembled Brand Components</h2>
+      <p>The overall art direction will be...</p>
+
+      <section class="element">
+        <h4>Fonts</h4>
+        <h5>Helvetica</h5>
+        <p>Helvetica will be used for...</a></p>
+
+        <h4>Colour Palettes</h4>
+
+        <h5>Potential Imagery/Art Direction</h5>
+        
+        <h5>Examples of images:</h5>
+        
+      </section>
+    </section>
+
   </body>
 </html>
