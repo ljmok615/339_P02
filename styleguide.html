@@ -4,10 +4,9 @@
   <head>
 
     <meta charset="utf-8">
-    <title>P01 - Style Guide</title>
+    <title>P02 - Style Guide</title>
     
-    <link href="css/main.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/fonts.css"> 
+    <link href="/styles.css" rel="stylesheet">
 
   </head>
 
@@ -17,11 +16,10 @@
         <h2>Template/Page Navigation</h2>
         <p>Navigate to template pages using the below buttons.</p>
 
-        <a href="./products.html" class="button-nav">Product Listing Page</a>
-        <a href="./checkout.html" class="button-nav">Checkout Page</a>
+        <a href="./productpage.html" class="button-nav">Product Listing Page</a>
       </nav>
 
-      <h1>P01 - Style Guide Template</h1>
+      <h1>P02 - Style Guide Template</h1>
 
       <p>A template you can use to start building out your own style guides with.</p>
 
@@ -71,13 +69,13 @@
         <h3>Navigation Link</h3>
         
         <h4>CSS selector:</h4>
-        <p>.nav-link</p>
+        <p>.button-nav</p>
 
         <h4>Sample code:</h4>
         <code>
           &lt;nav&gt;
           &lt;p>Go to:&lt;/p&gt;
-            &lt;a href="#interactive_elements">Interactive Elements&lt;a&gt;
+            &lt;a href="#interactive_elements" class="button-nav">Interactive Elements&lt;a&gt;
         &lt;/nav&gt;
         </code>
 
@@ -85,19 +83,20 @@
 
         <nav>
           <p>Go to:</p>
-            <a href="#interactive_elements" class="text-link">Interactive Elements</a>
+            <a href="#interactive_elements" class="button-nav">Interactive Elements</a>
         </nav>
 
         <h3>Button</h3>
 
         <h4>CSS selector:</h4>
-        <p>.button</p>
+        <p>.input</p>
 
         <h4>Sample code:</h4>
         <code>&lt;a href="#" class="button"&gt;Default Button&lt;/a&gt;</code>
 
         <h4>Rendered element:</h4>
-        <a class="button" href="#">Default Button</a>
+        <input type="submit" value="Default Button" />
+        <!-- <a class="button" href="#">Default Button</a> -->
 
       </section>
 
@@ -109,16 +108,16 @@
         -->
         
         <h4>CSS selector:</h4>
-        <p>.submit-button</p><br>
-        <p>.reset-button</p>
+        <p>.submit</p><br>
+        <p>.reset</p>
 
         <h4>Sample code:</h4>
         <code>
           &lt;form method="post" action="#"&gt;<br>
             &lt;label for="form">Put input here:&lt;/label&gt;<br>
             &lt;input type="text" id="form" placeholder="type input here"&gt;<br>
-            &lt;button type="submit" value="Submit">Submit&lt;/button&gt;<br>
-            &lt;button type="reset" value="Reset">Reset&lt;/button&gt;<br>
+            &lt;input type="submit" value="Submit"><br>
+            &lt;input type="reset" value="Reset"><br>
           &lt;/form&gt;
         </code>
 
@@ -126,9 +125,9 @@
 
         <form method="post" action="#">
           <label for="form">Put input here:</label>
-          <input type="text" id="form" placeholder="type input here">
-          <button type="submit" value="Submit" class="submit-button">Submit</button>
-          <button type="reset" value="Reset" class="reset-button">Reset</button>
+          <input type="input" id="form" placeholder="type input here">
+          <input type="submit" value="Submit">
+          <input type="reset" value="Reset">
         </form>
       </section>
 
@@ -343,8 +342,7 @@
 
           <label for="expiry">Card Expiration</label>
           <input type="text" id="expiry" placeholder="MM/YY"><br>
-
-          <button type="submit" value="Submit" class="submit-button">Submit</button>
+          <input type="submit" value="Checkout" />
         </form>
       </section>
 
