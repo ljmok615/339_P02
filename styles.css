@@ -135,6 +135,13 @@ input:focus {
   border-color: #f54209;
 }
 
+.header{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .productListing {
   display: flex;
   flex-wrap: wrap;
