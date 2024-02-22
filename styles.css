@@ -5,7 +5,6 @@ body {
   /* transition: 0.25s ease-in-out; */
 }
 
-
 section {
   margin: 25px 0px;
 }
@@ -135,20 +134,20 @@ input:focus {
   border-color: #f54209;
 }
 
-.header{
-  display:flex;
+.header {
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
 
-.companyUpdates{
-  display:flex;
+.companyUpdates {
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  border: 1px solid #f54209; 
+  border: 1px solid #f54209;
   border-radius: 6px;
 }
 
@@ -244,4 +243,42 @@ input:focus {
 .discount input[type="submit"] {
   border: 0.5px solid #ccc;
   border-radius: 50px;
+}
+
+.review-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #f54209;
+  border-radius: 6px;
+  padding: 12px;
+}
+
+.review-container h4 {
+  margin: 0;
+  padding-bottom: 8px;
+}
+
+.review-person {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: flex-start;
+  /* align-items: flex-start; */
+}
+
+.review-person p {
+  padding-top: 2px;
+}
+
+.avatar {
+  vertical-align: middle;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  /* border: 1px solid #f54209; */
+}
+
+.review-person p {
+  font-weight: lighter;
+  padding-left: 8px;
 }
