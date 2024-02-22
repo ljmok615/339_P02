@@ -142,6 +142,16 @@ input:focus {
   align-items: center;
 }
 
+.companyUpdates{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #f54209; 
+  border-radius: 6px;
+}
+
 .productListing {
   display: flex;
   flex-wrap: wrap;
