@@ -146,10 +146,28 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: top;
     padding: 20px;
     border: 1px solid #f54209;
     border-radius: 6px;
+  }
+
+  .companyUpdateHeader{
+    display: flex;
+    padding-right: 10px;
+    max-width: 30%;
+  } 
+
+  .companyUpdateInfo{
+    display: flex;
+    padding-top: 25px;
+    max-width: 70%;
+  }
+
+  @media screen and (max-width: 800px){
+    .companyUpdates{
+      flex-direction: column;
+    }
   }
 
   .productListing {
@@ -302,6 +320,12 @@
     display: flex;
     padding-top: 20px;
     max-width: 70%;
+  }
+
+  @media screen and (max-width: 800px){
+    .aboutUs{
+      flex-direction: column;
+    }
   }
 
   .contact {
