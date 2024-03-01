@@ -135,6 +135,16 @@
     border-color: #f54209;
   }
 
+  .button{
+    font-weight: normal;
+    text-decoration: none;
+    width: fit-content;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+
   .header {
     display: flex;
     flex-direction: row;
