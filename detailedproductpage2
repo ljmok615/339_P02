@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Trek Roadbike</title>
+    <title>Rolleiflex Camera</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
 
@@ -29,20 +29,19 @@
 
     <section class="detailed-product-view">
       <div class="product-image-container">
-        <img src="images/product1.jpg" alt="Product 1" class="product-image" />
+        <img src="images/product2.jpg" alt="Product 1" class="product-image" />
       </div>
       <div class="product-info-container">
-        <h2>Trek Émonda SL 6 Disc Pro</h2>
+        <h2>Rolleiflex 3.5F Xenotar Twin Lens Reflex Camera</h2>
         <h5 style="font-weight: normal">
-          From sprints on your local roads to pro stage racing.
+          For capturing timeless, stoic, and exquisite moments.
         </h5>
         <h5>$7,999.99</h5>
         <p>
-          Émonda SL 6 Disc Pro is the first carbon road bike in the lineup that
-          gives you lightweight carbon wheels to match your lightweight frame.
-          Aero tube shaping, disc brakes, and a high-performance drivetrain make
-          it a great option for roadies who value great handling and lots of
-          speed.
+          The Rolleiflex 3.5F has an impressively sharp 75mm f3.5 lens. It is
+          very easy to use and the viewfinder is bright enough for most
+          situations. We recommend the 'flex for people who love photography and
+          want to invest in one of the most joyful cameras to ever exist.
         </p>
         <!-- <input type="submit" value="Add to Cart" /> -->
         <a class="button" href="./checkout.html">Add to Cart</a>
