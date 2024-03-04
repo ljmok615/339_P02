@@ -135,7 +135,7 @@
     border-color: #f54209;
   }
 
-  .button{
+  .button {
     font-weight: normal;
     text-decoration: none;
     width: fit-content;
@@ -152,8 +152,8 @@
     align-items: center;
   }
 
-  @media screen and (max-width: 800px){
-    .header{
+  @media screen and (max-width: 800px) {
+    .header {
       flex-direction: column;
     }
   }
@@ -168,20 +168,20 @@
     border-radius: 6px;
   }
 
-  .companyUpdateHeader{
+  .companyUpdateHeader {
     display: flex;
     padding-right: 10px;
     max-width: 30%;
-  } 
+  }
 
-  .companyUpdateInfo{
+  .companyUpdateInfo {
     display: flex;
     padding-top: 25px;
     max-width: 70%;
   }
 
-  @media screen and (max-width: 800px){
-    .companyUpdates{
+  @media screen and (max-width: 800px) {
+    .companyUpdates {
       flex-direction: column;
     }
   }
@@ -338,8 +338,8 @@
     max-width: 70%;
   }
 
-  @media screen and (max-width: 800px){
-    .aboutUs{
+  @media screen and (max-width: 800px) {
+    .aboutUs {
       flex-direction: column;
     }
   }
@@ -415,4 +415,58 @@
 .comment-section-container li {
   list-style: none;
   justify-content: center;
+}
+
+.footer {
+  margin-top: 100px;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.box h6 {
+  /* background-color: #f54209; */
+  margin: 0px;
+  padding: 0px;
+  font-weight: 500;
+  font-size: 13px;
+  color: rgb(69, 69, 69);
+}
+
+.nav-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  list-style: none;
+  padding: 0;
+}
+
+.button-footer {
+  color: #f54209;
+  text-decoration: none;
+  transition: 0.25s ease-in-out;
+  border: none;
+  border-radius: 6px;
+  padding: 0px;
+  margin: 0px;
+  transition: border-color 0.25s ease-in-out;
+  font-weight: normal;
+  font-size: 28px;
+}
+
+.micro-info {
+  list-style: none;
+  padding: 0px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #2b2b2b;
+}
+
+.micro-info li {
+  padding: 0;
+  margin: 0;
+  line-height: 10px;
 }
