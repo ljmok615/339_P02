@@ -99,7 +99,7 @@
   }
 
   a img {
-    transition: transform 0.25s ease-in-out;
+    transition: transform 0.10s ease-in-out;
     border-radius: 6px;
   }
 
@@ -140,6 +140,7 @@
     text-decoration: none;
     width: fit-content;
     padding: 8px;
+    display:inline-block;
     box-sizing: border-box;
     border: 1px solid #ccc;
     border-radius: 6px;
