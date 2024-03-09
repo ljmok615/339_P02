@@ -173,7 +173,7 @@
   .companyUpdateHeader {
     display: flex;
     padding-right: 10px;
-    max-width: 30%;
+    max-width: 50%;
   }
 
   .companyUpdateInfo {
