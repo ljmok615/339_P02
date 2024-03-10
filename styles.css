@@ -38,20 +38,28 @@
   .button-nav {
     color: #f54209;
     text-decoration: none;
-    transition: 0.25s ease-in-out;
-    border: 1px solid transparent;
+    border: 2px solid transparent;
     border-radius: 6px;
-    padding: 5px 10px;
-    transition: border-color 0.25s ease-in-out;
-    margin: 0;
+    padding: 10px 14px;
+    /* transition: border-color 0.25s ease-in-out; */
+    margin-left: 8px;
     font-weight: normal;
   }
 
   .button-nav:hover {
-    color: #000000;
+    transition: 0.25s ease-in-out;
     border-color: #f54209;
+    /* font-weight: 500; */
+    color: black;
     text-decoration: none;
   }
+
+  /* .button-nav:focus {
+    transition: 0.25s ease-in-out;
+    border: 2.2px #f54209 solid;
+    border-radius: 6px;
+    padding: 10px 14px;
+  } */
 
   .nav-list {
     display: flex;
@@ -59,7 +67,7 @@
     justify-content: flex-start;
     list-style: none;
     padding: 0px;
-    margin: 0;
+    margin: 0px;
     /* width: fit-content; */
     /* border-bottom: 1.5px solid #f540092d; */
   }
@@ -78,10 +86,6 @@
     font-weight: bold;
     text-decoration: none;
     transition: 0.25s ease-in-out;
-    /* display: flex; */
-    /* flex-direction: row; */
-    /* align-content: baseline; */
-    /* flex-wrap: wrap; */
     width: fit-content;
     text-wrap: nowrap;
   }
@@ -89,17 +93,18 @@
   a:hover {
     color: #f54209;
     text-decoration: dotted underline;
+    /* padding: 10px 14px; */
   }
 
   a:focus {
-    outline: 1px solid #f54209;
-    padding: 5px 10px;
+    transition: 0.1s ease-in-out;
+    /* border: 2px solid #f54209; */
+    /* padding-left: 14px; */
     border-radius: 6px;
-    transition: 0.25s ease-in-out;
   }
 
   a img {
-    transition: transform 0.10s ease-in-out;
+    transition: transform 0.1s ease-in-out;
     border-radius: 6px;
   }
 
@@ -135,15 +140,19 @@
     border-color: #f54209;
   }
 
-  .button {
+  .checkout {
     font-weight: normal;
     text-decoration: none;
     width: fit-content;
     padding: 8px;
-    display:inline-block;
+    display: inline-block;
     box-sizing: border-box;
     border: 1px solid #ccc;
     border-radius: 6px;
+  }
+
+  .checkout:focus {
+    border: 2px solid #f54209;
   }
 
   .header {
@@ -447,7 +456,7 @@
 }
 
 .button-footer {
-  color: #f54209;
+  color: #f54009cb;
   text-decoration: none;
   transition: 0.25s ease-in-out;
   border: none;
@@ -457,6 +466,12 @@
   transition: border-color 0.25s ease-in-out;
   font-weight: normal;
   font-size: 28px;
+}
+
+.button-footer:hover {
+  transition: 0.1s ease-in-out;
+  color: #f54209;
+  text-decoration: dotted underline;
 }
 
 .micro-info {
