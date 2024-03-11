@@ -131,7 +131,7 @@
     box-sizing: border-box;
     border: 1px solid #ccc;
     border-radius: 6px;
-    height:auto;
+    height: auto;
   }
 
   /* Style label and input on hover and focus */
@@ -413,15 +413,10 @@
 }
 
 .comments-section-block {
-  /* border: #f54209 1px solid; */
-  /* display: flex;
-  flex-direction: column;
-  flex-wrap: wrap; */
-  max-width: 928px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
-  /* justify-content: center; */
+  justify-content: center;
 }
 
 .comment-section-container li {
@@ -430,24 +425,42 @@
   padding-top: 2%;
 }
 
-.add-comment-section{
+.add-comment-section {
   max-width: 928px;
-  display:flex;
+  display: flex;
   flex-direction: column;
   flex-wrap: wrap;
 }
 
-.add-comment-container{
+.add-comment-container {
+  display: flex;
+  flex-direction: row;
   border: 1px solid #ccc;
   border-radius: 6px;
-  padding: 20px;
+  padding-bottom: 35px;
+  justify-content: baseline;
+  align-items: baseline;
+  /* margin-bottom: 80px; */
+}
+
+.comment-headline h3 {
+  width: 120%;
+  padding-left: 28px;
 }
 
 .review-form {
-  padding-left: 48px;
+  /* padding-left: 48px; */
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   gap: 16px;
+  width: 100%;
+  justify-content: center;
+  align-content: center;
+}
+
+.reivew-button {
+  width 100
 }
 
 .review-form div {
@@ -461,13 +474,13 @@
   width: 100%;
 }
 
-.name-input{
-  width:10vw;
+.name-input {
+  width: 10vw;
 }
 
-.review-input{
-  height:10vh;
-  width: 100%
+.review-input {
+  height: 10vh;
+  width: 100%;
 }
 
 .footer {

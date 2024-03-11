@@ -31,55 +31,75 @@
       </nav>
     </section>
 
+    <!-- detailed product view  -->
     <section class="detailed-product-view">
-      <div class="product-image-container">
-        <img
-          src="images/product1.jpg"
-          alt="Trek Émonda SL 6 Disc Pro product photo shows a sleek black bicycle"
-          class="product-image"
-        />
-      </div>
-      <div class="product-info-container">
-        <h2>Trek Émonda SL 6 Disc Pro</h2>
-        <h5 style="font-weight: normal">
-          From sprints on your local roads to pro stage racing.
-        </h5>
-        <h5>$7,999.99</h5>
-        <p>
-          Émonda SL 6 Disc Pro is the first carbon road bike in the lineup that
-          gives you lightweight carbon wheels to match your lightweight frame.
-          Aero tube shaping, disc brakes, and a high-performance drivetrain make
-          it a great option for roadies who value great handling and lots of
-          speed.
-        </p>
-        <!-- <input type="submit" value="Add to Cart" /> -->
-        <a class="button checkout" href="./checkout.html">Add to Cart</a>
+      <div class="detailed-product-view-container">
+        <div class="product-image-container">
+          <img
+            src="images/product1.jpg"
+            alt="Trek Émonda SL 6 Disc Pro product photo shows a sleek black bicycle"
+            class="product-image"
+          />
+        </div>
+        <div class="product-info-container">
+          <h2>Trek Émonda SL 6 Disc Pro</h2>
+          <h5 style="font-weight: normal">
+            From sprints on your local roads to pro stage racing.
+          </h5>
+          <h5>$7,999.99</h5>
+          <p>
+            Émonda SL 6 Disc Pro is the first carbon road bike in the lineup
+            that gives you lightweight carbon wheels to match your lightweight
+            frame. Aero tube shaping, disc brakes, and a high-performance
+            drivetrain make it a great option for roadies who value great
+            handling and lots of speed.
+          </p>
+          <!-- <input type="submit" value="Add to Cart" /> -->
+          <a class="button checkout" href="./checkout.html">Add to Cart</a>
+        </div>
       </div>
     </section>
 
     <!-- comments section -->
     <hr class="max-width" />
 
-    <section class="comments-section-block">
+    <section class="comments-section-block spacing">
       <div>
-        <h2>Reviews</h2>
+        <h2>What are others saying?</h2>
       </div>
 
-      <section class="add-comments-section">
+      <div class="add-comments-section">
         <div class="add-comment-container">
-          <h3>Write a Review</h3>
+          <div class="comment-headline">
+            <h3>Write a Review</h3>
+          </div>
+
           <form method="post" class="review-form">
             <div>
               <label for="name">Name</label>
-              <input type="text" id="name" name="name" class="name-input" required />
+              <input
+                type="text"
+                id="name"
+                name="name"
+                class="name-input"
+                required
+              />
             </div>
-  
+
             <div>
               <label for="comment">Comment</label>
-              <input type="text" id="comment" name="comment" class="review-input" required />
+              <input
+                type="text"
+                id="comment"
+                name="comment"
+                class="review-input"
+                required
+              />
             </div>
-  
-            <input type="submit" id="submit" name="submit">
+
+            <div class="reivew-button">
+              <input type="submit" id="submit" name="submit" />
+            </div>
           </form>
         </div>
       </div>
@@ -173,16 +193,21 @@
       </div>
     </section>
 
-    <section class = "footer">
-      <hr>
-      <div class = "footer-container">
-
-        <div class = "box">
+    <section class="footer">
+      <hr />
+      <div class="footer-container">
+        <div class="box">
           <h6>Pages:</h6>
           <ul class="nav-footer">
-            <li><a href="./productpage.html" class="button button-footer">Home</a></li>
-            <li><a href="./about.html" class="button button-footer">About Us</a></li>
-            <li><a href="./checkout.html" class="button button-footer">Cart</a></li>
+            <li>
+              <a href="./productpage.html" class="button button-footer">Home</a>
+            </li>
+            <li>
+              <a href="./about.html" class="button button-footer">About Us</a>
+            </li>
+            <li>
+              <a href="./checkout.html" class="button button-footer">Cart</a>
+            </li>
             <li>
               <a href="./styleguide.html" class="button button-footer"
                 >Our Style Guide</a
@@ -191,10 +216,9 @@
           </ul>
         </div>
 
-        <div class = "box">
-        </div>
+        <div class="box"></div>
 
-        <div class = "box">
+        <div class="box">
           <h6>Creative Direction:</h6>
           <ul class="micro-info">
             <li><p>@Yee Loong Tang</p></li>
@@ -202,7 +226,7 @@
           </ul>
         </div>
 
-        <div class = "box">
+        <div class="box">
           <h6>Contact:</h6>
           <ul class="micro-info">
             <li><p>info@frontend.co</p></li>
@@ -210,7 +234,6 @@
           </ul>
         </div>
       </div>
-
     </section>
   </body>
 </html>
