@@ -131,6 +131,7 @@
     box-sizing: border-box;
     border: 1px solid #ccc;
     border-radius: 6px;
+    height:auto;
   }
 
   /* Style label and input on hover and focus */
@@ -426,6 +427,47 @@
 .comment-section-container li {
   list-style: none;
   justify-content: center;
+  padding-top: 2%;
+}
+
+.add-comment-section{
+  max-width: 928px;
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.add-comment-container{
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 20px;
+}
+
+.review-form {
+  padding-left: 48px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.review-form div {
+  flex-basis: 1;
+  flex-grow: 1;
+  flex-shrink: 1;
+  width: calc(50% - 8px);
+}
+
+.review-form input {
+  width: 100%;
+}
+
+.name-input{
+  width:10vw;
+}
+
+.review-input{
+  height:10vh;
+  width: 100%
 }
 
 .footer {

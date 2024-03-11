@@ -320,62 +320,89 @@
     <section id="combined_elements">
       <h2>Combined Elements</h2>
 
-      <section class="element">
-        <h3>Main Navigation</h3>
-        <a href="#" class="button-nav">Home</a>
-        <a href="#" class="button-nav">Products</a>
-        <a href="#" class="button-nav">Events</a>
-        <a href="#" class="button-nav">About Us</a>
+      <section class="header">
+        <h2><a href="./homepage.html">Front End Co.</a></h2>
+  
+        <nav>
+          <ul class="nav-list">
+            <li>
+              <a href="./productpage.html" class="button button-nav">Shop</a>
+            </li>
+            <li><a href="./about.html" class="button button-nav">About Us</a></li>
+            <li><a href="./checkout.html" class="button button-nav">Cart</a></li>
+            <li>
+              <a href="./styleguide.html" class="button button-nav"
+                >Our Style Guide</a
+              >
+            </li>
+            <li>
+              <a href="./citations.html" class="button button-nav">Citations</a>
+            </li>
+          </ul>
+        </nav>
       </section>
 
       <section class="element">
         <h3>Product/Service Listing</h3>
 
         <div class="product">
-            <!-- dont have the original image to display right now-->
+          <a href="./detailedproductpage.html">
             <img
               src="images/product1.jpg"
-              alt="Product 1"
+              alt="Trek Émonda SL 6 Disc Pro product photo shows a sleek black bicycle"
               width="543.6"
               height="384"
             />
-            <p>
-              <a href="#" class="interactive-link">Trek Émonda SL 6 Disc Pro</a>
-            </p>
-            <p class="prodDescription">
-              This is a sample product description. This is an exquisite product.
-            </p>
-            <p class="price">$2,500.99</p>
-            <input type="submit" value="Add to Cart" />
-          </div>
+          </a>
+          <p>
+            <a href="./detailedproductpage.html" class="interactive-link">Trek Émonda SL 6 Disc Pro</a>
+          </p>
+          <p class="prodDescription">
+            From sprints on your local roads to
+            pro stage racing.
+          </p>
+          <p class="price">$7,999.99</p>
+          <!-- <a href="#" class="button">Add to cart</a> -->
+          <!-- <input type="submit" value="Add to Cart" /> -->
+  
+          <a class="button checkout" href="./checkout.html">Add to Cart</a>
+        </div>
         
-
-      <section class="element">
-        <h3>Payment Form</h3>
-        <form method="post" action="#">
-          <label for="fname" class=".label">First Name:</label>
-          <input type="text" id="fname" placeholder="First Name"> 
-
-          <label for="lname">Last Name:</label>
-          <input type="text" id="lname" placeholder="Last Name"><br>
-
-          <label for="ccnumber">Credit Card Number</label>
-          <input type="text" id="ccnumber" placeholder="Credit Card Number"> 
-
-          <label for="cvc">Security Code</label>
-          <input type="text" id="cvc" placeholder="CVC">
-
-          <label for="expiry">Card Expiration</label>
-          <input type="text" id="expiry" placeholder="MM/YY"><br>
-          <input type="submit" value="Checkout" class="submit">
-        </form>
-      </section>
+        <section>
+          <h3>Payment Form</h3>
+          <div class="customer-information">
+            <h4>Let's trade! Your money for our cart</h4>
+            <form class="payment-form">
+              <div>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required />
+              </div>
+              <div>
+                <label for="card-number">Card Number</label>
+                <input type="text" id="card-number" name="card-number" required />
+              </div>
+              <div>
+                <label for="expiry">Expiry Date</label>
+                <input
+                  type="text"
+                  id="expiry"
+                  name="expiry"
+                  placeholder="MM/YY"
+                  required
+                />
+              </div>
+              <div>
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" name="cvv" required />
+              </div>
+              <a href="./orderconfirmation.html" class="button-reverse">Confirm Trade</a>
+            </form>
+          </div>
+        </section>
 
       <section class="element">
         <h3>Checkout Cart</h3>
         <h2>Checkout</h2>
-        
-        <!-- from lauren's P01 checkout, will update with images later -->
 
         <li style="list-style: none">
           <div class="product-item">
