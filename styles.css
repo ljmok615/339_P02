@@ -144,11 +144,11 @@
   .checkout {
     font-weight: normal;
     text-decoration: none;
-    width: fit-content;
+    width: 100%;
     padding: 8px;
     display: inline-block;
-    box-sizing: border-box;
-    border: 1px solid #ccc;
+    /* box-sizing: border-box; */
+    /* border: 1px solid #ccc; */
     border-radius: 6px;
   }
 
