@@ -208,7 +208,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: top;
+    align-items: start;
     padding: 20px;
     border: 1px solid #f54209;
     border-radius: 6px;
