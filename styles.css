@@ -467,7 +467,7 @@
 }
 
 .reivew-button {
-  width 100
+  width: 100;
 }
 
 .review-form div {
@@ -593,6 +593,7 @@
   border: 1.5px #f54209 solid;
   border-radius: 6px;
   padding: 10px 14px;
+  display: inline-block;
   /* transition: border-color 0.25s ease-in-out; */
   margin-left: 0;
   font-weight: normal;

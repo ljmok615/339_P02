@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rolleiflex Camera</title>
+    <title>Rolleiflex 3.5F Xenotar Twin Lens Reflex Camera</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
 
@@ -31,54 +31,75 @@
       </nav>
     </section>
 
+    <!-- detailed product view  -->
     <section class="detailed-product-view">
-      <div class="product-image-container">
-        <img
-          src="images/product2.jpg"
-          alt="Rolleiflex 3.5F Xenotar Twin Lens Reflex Camera Product Photo of a black and silver camera with two lenses"
-          class="product-image"
-        />
-      </div>
-      <div class="product-info-container">
-        <h2>Rolleiflex 3.5F Xenotar Twin Lens Reflex Camera</h2>
-        <h5 style="font-weight: normal">
-          For capturing timeless, stoic, and exquisite moments.
-        </h5>
-        <h5>$2,999.99</h5>
-        <p>
-          The Rolleiflex 3.5F has an impressively sharp 75mm f3.5 lens. It is
-          very easy to use and the viewfinder is bright enough for most
-          situations. We recommend the 'flex for people who love photography and
-          want to invest in one of the most joyful cameras to ever exist.
-        </p>
-        <!-- <input type="submit" value="Add to Cart" /> -->
-        <a class="button" href="./checkout.html">Add to Cart</a>
+      <div class="big-container">
+        <div class="product-image-container">
+          <img
+            src="images/product2.jpg"
+            alt="Rolleiflex 3.5F Xenotar Twin Lens Reflex Camera Product Photo of a black and silver camera with two lenses"
+            class="product-image"
+          />
+        </div>
+
+        <div class="product-info-container">
+          <h2>Rolleiflex 3.5F Xenotar Twin Lens Reflex Camera</h2>
+          <h5 style="font-weight: normal">
+            For capturing timeless, stoic, and exquisite moments.
+          </h5>
+          <h5>$2,999.99</h5>
+          <p>
+            The Rolleiflex 3.5F has an impressively sharp 75mm f3.5 lens. It is
+            very easy to use and the viewfinder is bright enough for most
+            situations. We recommend the 'flex for people who love photography and
+            want to invest in one of the most joyful cameras to ever exist.
+          </p>
+          <!-- <input type="submit" value="Add to Cart" /> -->
+          <a class="button-reverse" href="./checkout.html">Add to Cart</a>
+        </div>
       </div>
     </section>
 
     <!-- comments section -->
-    <hr class="max-width" />
+    <!-- <hr class="max-width" /> -->
 
-    <section class="comments-section-block">
+    <section class="comments-section-block spacing">
       <div>
-        <h1>Reviews</h1>
+        <h2>What are others saying?</h2>
       </div>
 
-      <section class="add-comments-section">
+      <div class="add-comments-section">
         <div class="add-comment-container">
-          <h3>Write a Review</h3>
+          <div class="comment-headline">
+            <h3>Write a Review</h3>
+          </div>
+
           <form method="post" class="review-form">
             <div>
               <label for="name">Name</label>
-              <input type="text" id="name" name="name" class="name-input" required />
+              <input
+                type="text"
+                id="name"
+                name="name"
+                class="name-input"
+                required
+              />
             </div>
-  
+
             <div>
               <label for="comment">Comment</label>
-              <input type="text" id="comment" name="comment" class="review-input" required />
+              <input
+                type="text"
+                id="comment"
+                name="comment"
+                class="review-input"
+                required
+              />
             </div>
-  
-            <input type="submit" id="submit" name="submit">
+
+            <div class="reivew-button">
+              <input type="submit" id="submit" name="submit" />
+            </div>
           </form>
         </div>
       </div>
@@ -114,9 +135,7 @@
               <img src="images/avatar.png" alt="avatar" class="avatar" />
               <p>Tobias Key</p>
             </div>
-            <h4>
-              Lightweight medium format camera with top quality Zeiss lens
-            </h4>
+            <h4>Lightweight medium format camera with top quality Zeiss lens</h4>
             <div class="review-description">
               <p>
                 The Rolleiflex fitted my criteria for a walk around camera
@@ -141,11 +160,13 @@
           <div class="review-container">
             <div class="review-person">
               <img src="images/avatar.png" alt="avatar" class="avatar" />
-              <p>CameraLover</p>
+              <p>Camera lover</p>
             </div>
             <h4>One of my favourites</h4>
             <div class="review-description">
-              <p>Beautiful photos from this camera. Love using it</p>
+              <p>
+                Beautiful photos from this camera. Love using it
+              </p>
             </div>
             <div class="review-buttons">
               <input type="submit" value="Helpful" />
@@ -174,6 +195,11 @@
             <li>
               <a href="./styleguide.html" class="button button-footer"
                 >Our Style Guide</a
+              >
+            </li>
+            <li>
+              <a href="https://github.com/ljmok615/339_P02" class="button button-footer"
+                >Our GitHub Repo</a
               >
             </li>
           </ul>
